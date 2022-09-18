@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+Regler:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Ett gem är vunnet när en spelare har åtminstone 4 poäng och 2 poäng mer än sin motståndare.
 
-## Available Scripts
+2. I tennis beskrivs poäng 0, 1, 2 och 3 som “Love”, “Fifteeen”, “Thirty”, och “Forty”.
 
-In the project directory, you can run:
+3. Om båda spelare har åtminstone 3 poäng vardera och båda spelare har lika många poäng beskrivs poängställningen som “Deuce”.
 
-### `npm start`
+4. Om båda spelare har åtminstone 3 poäng vardera och en av spelarna har 1 poäng mer än den andra spelaren beskrivs poängställningen som “Advantage”.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Din app bör ha ett grafiskt gränssnitt som representerar poängställningen (du kan googla på “poängtavla tennis” för inspiration).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Man ska också kunna registrera att en spelare fått poäng (hur registreringen sker är upp till dig).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Appen ska kunna hålla reda på poäng för ett gem, hantera deuce, advantage etc och utse en vinnare när en av spelarna uppfyller kraven för att vinna.
